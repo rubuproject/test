@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The International Elite Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="payung.css">
+</head>
+<body>
+    <!-- LOGIN PAGE -->
+    <div id="login-page">
+        <div id="particles-js"></div>
+        
+        <header class="login-header">
+            <div class="container">
+                <h1 class="logo">The International <span>Elite</span> Academy</h1>
+                <p class="tagline">EDUCATING TOMORROW'S GLOBAL LEADERS</p>
+            </div>
+        </header>
+        
+        <main class="login-form-container">
+            <div class="container">
+                <form class="login-form glass fade-in" id="login-form">
+                    <h2 class="form-title">Enter the Academy</h2>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email Address</label>
+                        <input type="email" id="email" class="form-input" placeholder="your.email@academy.edu" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="password">Password</label>
+                        <input type="password" id="password" class="form-input" placeholder="••••••••" required>
+                    </div>
+                    
+                    <div class="form-options">
+                        <a href="#" class="form-link">Create Account</a>
+                        <a href="#" class="form-link">Forgot Password?</a>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Enter Academy</button>
+                </form>
+            </div>
+        </main>
+        
+        <footer class="login-footer">
+            <div class="container">
+                <p>&copy; 2023 The International Elite Academy. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- DASHBOARD PAGE -->
+    <div id="dashboard">
+        <nav class="dashboard-nav">
+            <div class="container nav-container">
+                <div class="nav-logo">Elite<span>Academy</span></div>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">My Classes</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Achievements</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="logout-btn">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <section class="hero-section">
+            <div class="hero-bg"></div>
+            <div class="container">
+                <div class="hero-content fade-in">
+                    <h1 class="hero-greeting">Welcome back, <span id="user-name">Alexandra</span> 👋</h1>
+                    <p class="hero-subtitle">Continue your journey to global excellence. Your next breakthrough awaits in our curated curriculum designed for tomorrow's leaders.</p>
+                    <a href="#" class="btn btn-primary">Resume Learning</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="dashboard-content">
+            <div class="container">
+                <h2 class="section-title">Your Active Courses</h2>
+                
+                <div class="classes-grid">
+                    <!-- Course 1 -->
+                    <div class="class-card glass fade-in">
+                        <div class="class-image">
+                            <div class="class-icon">🌍</div>
+                        </div>
+                        <div class="class-content">
+                            <h3 class="class-title">Global Strategic Leadership</h3>
+                            <p class="class-description">Master the art of leading diverse teams across international borders with cultural intelligence.</p>
+                            
+                            <div class="progress-container">
+                                <div class="progress-info">
+                                    <span>Progress</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-width="65"></div>
+                                </div>
+                            </div>
+                            
+                            <a href="#" class="btn btn-secondary" style="width: 100%;">Continue Learning</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Course 2 -->
+                    <div class="class-card glass fade-in">
+                        <div class="class-image">
+                            <div class="class-icon">💡</div>
+                        </div>
+                        <div class="class-content">
+                            <h3 class="class-title">Innovation & Disruptive Technologies</h3>
+                            <p class="class-description">Explore cutting-edge technologies and methodologies that are reshaping global industries.</p>
+                            
+                            <div class="progress-container">
+                                <div class="progress-info">
+                                    <span>Progress</span>
+                                    <span>42%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-width="42"></div>
+                                </div>
+                            </div>
+                            
+                            <a href="#" class="btn btn-secondary" style="width: 100%;">Continue Learning</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Course 3 -->
+                    <div class="class-card glass fade-in">
+                        <div class="class-image">
+                            <div class="class-icon">📊</div>
+                        </div>
+                        <div class="class-content">
+                            <h3 class="class-title">Advanced Data Analytics</h3>
+                            <p class="class-description">Transform complex data into strategic insights with advanced analytical techniques and tools.</p>
+                            
+                            <div class="progress-container">
+                                <div class="progress-info">
+                                    <span>Progress</span>
+                                    <span>78%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-width="78"></div>
+                                </div>
+                            </div>
+                            
+                            <a href="#" class="btn btn-secondary" style="width: 100%;">Continue Learning</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="achievements-section">
+                    <h2 class="section-title">Your Achievements</h2>
+                    
+                    <div class="achievements-grid">
+                        <!-- Achievement 1 -->
+                        <div class="achievement-card glass fade-in">
+                            <div class="achievement-icon">🏆</div>
+                            <h3 class="achievement-title">Global Thinker</h3>
+                            <p class="achievement-desc">Awarded for exceptional performance in cross-cultural strategic analysis.</p>
+                        </div>
+                        
+                        <!-- Achievement 2 -->
+                        <div class="achievement-card glass fade-in">
+                            <div class="achievement-icon">🚀</div>
+                            <h3 class="achievement-title">Innovation Master</h3>
+                            <p class="achievement-desc">Recognized for developing groundbreaking solutions to complex challenges.</p>
+                        </div>
+                        
+                        <!-- Achievement 3 -->
+                        <div class="achievement-card glass fade-in">
+                            <div class="achievement-icon">🌟</div>
+                            <h3 class="achievement-title">Elite Scholar</h3>
+                            <p class="achievement-desc">Awarded for maintaining exceptional academic performance across all courses.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Particles.js library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="payung.js"></script>
+</body>
+</html>
